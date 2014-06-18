@@ -1,1 +1,7 @@
+*.html
+javascripts/*.js
+javascripts/*.map
+stylesheets/*.css
 .sass-cache
+node_modules
+npm-debug.log

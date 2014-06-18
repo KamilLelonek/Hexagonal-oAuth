@@ -1,0 +1,28 @@
+#oauth-providers {
+  .social {
+    display    : inline-block;
+    $dimension : 64px;
+    width      : $dimension;
+    height     : $dimension;
+  }
+
+  #social-fb { background-image : url("../images/social_fb.png"); }
+  #social-gp { background-image : url("../images/social_gp.png"); }
+  #social-in { background-image : url("../images/social_in.png"); }
+}
+
+main { margin-top : 50px; }
+
+#profile-photo-title {
+  text-align : center;
+  margin     : 0;
+}
+
+#btn-logout {
+  margin: 10px 0;
+}
+
+#message-set-password {
+  margin-left: 10px;
+  color: red;
+}

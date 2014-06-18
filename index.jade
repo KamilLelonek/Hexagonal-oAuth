@@ -1,0 +1,27 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title oAuth in SH
+    meta(name='description', content='Authentication using external services to register or login in SH.')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='stylesheets/main.css')
+    link(rel='stylesheet', href='stylesheets/bootstrap.min.css')
+  body
+    main(class='container')
+
+    // Libraries
+    script(src='javascripts/libraries/jquery-2.1.0.min.js')
+    script(src='javascripts/libraries/handlebars-v1.3.0.js')
+    script(src='javascripts/libraries/sugar.min.js')
+    script(src='javascripts/libraries/Cookie.min.js')
+    script(src='javascripts/libraries/oauth.min.js')
+    script(src='javascripts/libraries/cookies_or_storage.min.js')
+
+    // App
+    script(src='views/handlebars.js')
+    script(src='javascripts/use_case.js')
+    script(src='javascripts/gui_adapter.js')
+    script(src='javascripts/server_side.js')
+    script(src='javascripts/main.js')

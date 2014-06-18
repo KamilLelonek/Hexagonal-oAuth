@@ -1,4 +1,7 @@
-Hexagonal-oAuth
-===============
+Working features:
 
-oAuth using Hexagonal Architecture
+- Login
+- Register
+- Logout
+- Get avatar
+- Get email
